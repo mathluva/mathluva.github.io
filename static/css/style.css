@@ -1,29 +1,37 @@
+body, html {
+  /* background-image: url("./SS.png"); */
+  background-position: center;
+  background-size: cover;
+  
+}
+​
+.myImage {
+  height: 40rem;
+}
+​
+.infoBox {
+  margin-top: 10%;
+}
+​
+.projectBox {
+  margin-top: 10%;
+}
 .ml3 {
-  font-weight: 500;
-  font-size: 3.5em;
+    font-weight: 500;
+    font-size: 2.5em;
 }  
-
 .ml3 .letter {
-  display: inline-block;
+  /* display: inline-block; */
   line-height: 1em;
 }  
-
-
-
+​
 h1{
   font-family: 'Kaushan Script', cursive;
-font-family: 'Rouge Script', cursive;
+  /* font-family: 'Rouge Script', cursive; */
 }
-
+​
 p,nav,div{
-  font-family: 'Kaushan Script', cursive;
-font-family: 'Rouge Script', cursive;
-font-family: 'Source Serif Pro', serif;
-}
-body,h4{
-  margin: 20px;
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 1.2em;
-  text-align: center;
-}
+  /* font-family: 'Kaushan Script', cursive; */
+  /* font-family: 'Rouge Script', cursive; */
+  font-family: 'Source Serif Pro', serif;
+} 
