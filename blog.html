@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+
+
+
+
+
+
+
+
+</head>
+<body class="font-family:Lucida Sans pink font-color:white" style="background-image:url('static/resources/photo-1513569771920-c9e1d31714af.jpeg'); background-repeat: no-repeat;
+    background-size: cover;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+          <a class="navbar-brand" style="color:white;" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;"href="https://mathluva.github.io/projects/">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;"href="https://github.com/mathluva">GitHub</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;" href="https://www.linkedin.com/in/tiffany-teasley/">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+<div class="header">
+  <h2>Blog Name</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="text-align:center;">About Me</h2>
+      <p>I am a motivated and accomplished professional with a solid background in mathematics and education seeking to excel in a position within the industry.</p>
+                <br>
+              <p>Possess technical skills in Python, JavaScript, SAS, SQL, NoSQL (MongoDB), Flask, REST APIs, JSON, Bootstrap, HTML, CSS, Pandas, VBA, with the ability to extract data in various forms to inspect, cleanse, transform, and model with the goal of discovering useful information to support decision-making. </p>
+              Enthusiasm for using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems. Dedication to translating complex information into a manner that people can easily understand. 
+              </p>    
+              <br>
+              <p>Solid foundation in skills learned from completion of an Advanced Certification in Statistics and Data Management from North Carolina State University and the Data Analytics Bootcamp at the University of North Carolina at Chapel Hill.
+                 </p> 
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="static/anime-master/lib/anime.min.js"></script>
+      <script src="static/js/animation.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</body>
+</html>

@@ -70,3 +70,5 @@
   document.querySelector('.play-radius').onclick = animateRadius.restart;
   
   document.querySelector('.play-all').onclick = animateAll.restart;
+  
+  
